@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'apptracking'
-  s.version          = '1.0.0'
+  s.name             = 'etracker-app-control'
+  s.version          = '2.6.0'
   s.swift_versions   = '4.0'
   s.summary          = 'Provides the etracker app tracking libraries.'
 
@@ -29,7 +29,7 @@ With this library you can track your native iOS application.
   s.source           = { :git => 'https://github.com/etracker/apptracking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   #s.source_files = 'apptracking/Classes/**/*'
   s.vendored_frameworks = 'apptracking/Frameworks/ETRTracker.xcframework'
