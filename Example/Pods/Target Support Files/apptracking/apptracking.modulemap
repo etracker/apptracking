@@ -1,0 +1,6 @@
+framework module apptracking {
+  umbrella header "apptracking-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "apptracking",
+  "version": "0.1.0",
+  "summary": "A short description of apptracking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/etrackerAdmin/apptracking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "etrackerAdmin": "meies@etracker.com"
+  },
+  "source": {
+    "git": "https://github.com/etrackerAdmin/apptracking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "apptracking/Classes/**/*"
+}
