@@ -1,6 +1,0 @@
-framework module Pods_apptracking_Example {
-  umbrella header "Pods-apptracking_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

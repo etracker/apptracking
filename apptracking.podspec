@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'apptracking'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.swift_versions   = '4.0'
   s.summary          = 'Provides the etracker app tracking libraries.'
 
@@ -31,7 +31,8 @@ With this library you can track your native iOS application.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'apptracking/Classes/**/*'
+  #s.source_files = 'apptracking/Classes/**/*'
+  s.vendored_frameworks = 'apptracking/Frameworks/ETRTracker.xcframework'
   
   # s.resource_bundles = {
   #   'apptracking' => ['apptracking/Assets/*.png']

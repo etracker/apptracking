@@ -1,6 +1,0 @@
-framework module Pods_apptracking_Tests {
-  umbrella header "Pods-apptracking_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
